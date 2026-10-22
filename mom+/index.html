@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mom+ - Onalikning har bir bosqichida</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+</style>
+<body>
+
+
+<header class="header">
+    <div class="container nav">
+        <a href="#" class="logo">
+            <img src="images/Logo.svg" alt="Mom+ Logo">
+        </a>
+
+        <nav class="navigation">
+            <a href="#">Loyiha haqida</a>
+            <a href="#">O'rganamiz</a>
+            <a href="#">Onalar uchun</a>
+            <a href="#">Shifokorlar uchun</a>
+            <a href="#">Hamkorlar</a>            
+        </nav>
+
+        <div class="nav-select">
+            <select class="custom-select" id="language-select" name="language">
+                <option value="uz">UZ</option>
+                <option value="ru" selected>РУ</option>
+                <option value="en">EN</option>
+            </select>
+
+            <a href="#download" class="nav-button">
+                Ilovani yuklab oling
+            </a>
+        </div>
+
+        <button class="mobile-menu-btn" id="menu-btn" aria-label="Open menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+        <nav class="mobile-nav-links">
+            <a href="#">Loyiha haqida</a>
+            <a href="#">O'rganamiz</a>
+            <a href="#">Onalar uchun</a>
+            <a href="#">Shifokorlar uchun</a>
+            <a href="#">Hamkorlar</a>
+        </nav>
+        <div class="mobile-menu-footer">
+            <a href="#download" class="nav-button mobile-download-btn">Ilovani yuklab oling</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <div class="container hero-content">
+            <div class="hero-label">
+                <div class="label-icons">
+                    <img src="images/glass-icon.svg" alt="">
+                </div>
+                <span>#1 raqamli onalik va homiladorlik ilovasi</span>
+            </div>
+
+            <h1>
+                Onalikning har bir
+                <br>
+                bosqichida
+                <span>yoningizdamiz</span>
+            </h1>
+
+            <p class="hero-description">
+                Homiladorlikni kuzating, bola rivojlanishini nazorat qiling, emlash va ko‘riklarni <br class="desktop-br"> unutmang, shifokorlardan bilim oling va siz kabi onalar bilan tajriba almashing.
+            </p>
+
+            <div class="download-buttons">
+                <a href="#" class="download-button">
+                    <img class="download-icon" src="images/play-market.svg" alt="Play Market">
+                    <span>Android uchun yuklab olish</span>
+                </a>
+
+                <a href="#" class="download-button">
+                    <img class="download-icon" src="images/apple.svg" alt="App Store">
+                    <span>iOS uchun yuklab olish</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+            <img src="images/clouds-left.png" alt="" class="cloud-left">
+            <img src="images/clouds-right.png" alt="" class="cloud-right">
+            <img src="images/clouds-button.png" alt="" class="cloud-bg">
+
+            <div class="hero-mockup-container">
+                <img src="images/hero.png" alt="Mom+ ilovasi" class="hero-image">
+
+                <img src="images/page-1.png" alt="" class="hero-badge badge-1">
+                <img src="images/page-2.png" alt="" class="hero-badge badge-2">
+                <img src="images/page-3.png" alt="" class="hero-badge badge-3">
+                <img src="images/page-4.png" alt="" class="hero-badge badge-4">
+                <img src="images/page-5.png" alt="" class="hero-badge badge-5">
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="section features" id="features">
+    <div class="container">
+        <h2 class="section-title">
+            Aqlli yordamchi. Xotirjam 
+            <span>onalik.</span>
+        </h2>
+        
+        <div class="features-list">
+            <article class="feature-card feature-pink">
+                <div class="feature-content">
+                    <div class="feature-text-block">
+                        <h3>Homiladorlik</h3>
+                        <p>
+                            Homiladorlikni haftama-hafta kuzating, ona va homila rivojlanishini bilib boring va muhim ko‘riklar, tekshiruvlar hamda eslatmalarni bir joyda boshqaring.
+                        </p>
+                    </div>
+                    <div class="feature-illustration pregnancy">
+                        <img src="images/pregnancy.png" alt="Homiladorlik">
+                    </div>
+                </div>
+                <div class="feature-phone">
+                    <img class="feature-phone-img" src="images/feature-pink.png" alt="Homiladorlik ilovasi">
+                </div>
+            </article>
+
+            <article class="feature-card feature-green">
+                <div class="feature-content">
+                    <div class="feature-text-block">
+                        <h3>Chaqaloq parvarishi</h3>
+                        <p>
+                            Ona salomatligi, tiklanishi va chaqaloq parvarishini kuzating, mutaxassislar tomonidan tayyorlagan 300+videolar tavsiyalar bilan tanishing. Har bir oyda xotirjam bo’ling.
+                        </p>
+                    </div>
+                    <div class="feature-illustration baby">
+                        <img src="images/baby.png" alt="Chaqaloq parvarishi">
+                    </div>
+                </div>
+                <div class="feature-phone">
+                    <img src="images/feature-green.png" alt="Chaqaloq ilovasi">
+                </div>
+            </article>
+
+            <article class="feature-card feature-purple">
+                <div class="feature-content">
+                    <div class="feature-text-block">
+                        <h3>Onalar davrasi</h3>
+                        <p>
+                            Homiladorlik, chaqaloq parvarishi va onalikning har bir bosqichida sizni tushunadigan onalar bilan tajriba almashing, savollaringizga javob toping.
+                        </p>
+                    </div>
+                    <div class="feature-illustration moms">
+                        <img src="images/moms.png" alt="Onalar davrasi">
+                    </div>
+                </div>
+                <div class="feature-phone">
+                    <img src="images/feature-purple.png" alt="Onalar davrasi">
+                </div>
+            </article>
+
+            <article class="feature-card feature-yellow">
+                <div class="feature-content">
+                    <div class="feature-text-block">
+                        <h3>Barchasi bir yerda</h3>
+                        <p>
+                            Bolangiz parvarishini kuzatishni osonlashtiring: o‘lchovlar, vaksinalar, dori eslatmalari, kundalik, tahlillar va boshqa foydali vositalar bitta ilovada.
+                        </p>
+                    </div>
+                    <div class="feature-illustration all-in-one">
+                        <img src="images/all-in-one.png" alt="Barchasi bir yerda">
+                    </div>
+                </div>
+                <div class="feature-phone">
+                    <img src="images/feature-yellow.png" alt="Mom+ servislar">
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="section why" id="about">
+    <div class="container">
+        <h2 class="section-title">
+            Nega aynan 
+            <span>Mom+</span>
+        </h2>
+        
+        <div class="why-grid">
+            <div class="why-item">
+                <div class="why-icon">
+                    <img src="images/health.svg" alt="">
+                </div>
+                <h3>
+                    Homiladorlik va chaqaloq parvarishi 
+                    <br> 
+                    bo‘yicha mutaxassislar
+                </h3>
+                <p>
+                    Ginekolog, pediatr va boshqa mutaxassislarning 
+                    tavsiyalari asosida tayyorlangan kontent va maslahatlar.
+                </p>
+                <a href="#">
+                    Mutaxassislar bilan tanishing 
+                    <img class="why-link" src="images/right.svg" alt="">
+                </a>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <img src="images/security.svg" alt="">
+                </div>
+                <h3>
+                    Shaxsiy ma’lumotlaringiz 
+                    <br>
+                    faqat siz uchun
+                </h3>
+                <p>
+                    Homiladorlik, bola va sog‘liq haqidagi shaxsiy 
+                    ma’lumotlaringiz maxfiy saqlanadi va himoyalanadi.
+                </p>
+                <a href="#">
+                    Maxfiylik siyosati 
+                    <img class="why-link" src="images/right.svg" alt="">
+                </a>
+            </div>
+
+            <div class="why-item">
+                <div class="why-icon">
+                    <img src="images/star.svg" alt="">
+                </div>
+                <h3>
+                    Moslashuvchan
+                    <br>
+                    maslahatlar
+                </h3>
+                <p>
+                    Homiladorlik haftangiz, farzandingiz yoshi, hozirgi davringizga 
+                    ko’ra tavsiyalar, kuzatuvlar va foydali videolar doim moslashadi.
+                </p>
+                <a href="#">
+                    Siz uchun nimalar borligini ko‘ring 
+                    <img class="why-link" src="images/right.svg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="video-section">
+            <div class="video-container">
+                <video
+                    src="images/woman.mp4" 
+                    class="video-element"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    poster="images/video-woman.png"
+                ></video>
+                <button class="video-play" type="button">
+                    <img src="images/play.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section proof">
+
+    <div class="container">
+
+        <h2 class="section-title">
+
+            Isbotlarga asoslangan.
+            <span>Onli onalik.</span>
+
+        </h2>
+    </div>
+
+    
+        <div class="partner-logos">
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-who.svg"
+                    alt="WHO"
+                >
+            </div>
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-cdc.svg"
+                    alt="CDC"
+                >
+            </div>
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-unicef.svg"
+                    alt="UNICEF"
+                >
+            </div>
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-nhs.svg"
+                    alt="NHS"
+                >
+            </div>
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-children.svg"
+                    alt="healty children"
+                >
+            </div>
+
+            <div class="partner-logo">
+                <img
+                    src="images/logo-uptodate.svg"
+                    alt="UpToDate"
+                >
+            </div>
+
+        </div>
+
+
+</section>
+
+<section class="reviews-section" id="reviews">
+    <div class="reviews-container">
+        
+        <h2 class="section-title">
+            <span>Mom+</span>
+            bilan onalik qanday o‘zgardi?
+        </h2>
+
+        <div class="reviews-wrapper">
+            <div class="reviews-row">
+                
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">tushuntirilgan</p>
+                    <div class="review-footer">
+                        <strong class="review-author">...</strong>
+                        <div class="store-info">
+                            <img src="images/apple.svg" alt="App Store" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Apple App Store</span>
+                                <span class="review-date">17-iyun, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">Много полезных советов для мам, для малыша и удобно пользоваться приложением.</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Iroda Muradimova</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">9-sentabr, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">
+judayam ajoyib hamma onalarga kerakli maslahatlar hato 1 marta bolalik boʻlganlarga ham bolajonm ogrimasdan 3 oylik qildim shu sabablik                    </p>
+                    <div class="review-footer">
+                        <strong class="review-author">Xosiyatxon Abduvohidova</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">9-sentabr, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">Bu ilova juda zoʻr va manfaatli. yosh bolasi bor onalarga tavsiya qilaman</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Malika Ochilova</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">3-sentabr, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="reviews-row">
+                
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">Onalar uchun eng kerakli ilova, bu ilovada oʻrganadigan maʼlumotlaringizni boshqa hech kimdan oʻrganolmaysiz. Ideal ona boʻlish uchun ilovani skachat qiling.</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Shahros Abdulhamid</strong>
+                        <div class="store-info">
+                            <img src="images/apple.svg" alt="App Store" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Apple App Store</span>
+                                <span class="review-date">17-iyun, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                    <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">Assalomu alaykum raxmat bilmagan narsalarimni mom ilovasidan bilib olyapman bu ilova chiqqani barcha onalarga juda katta yordam boʻldi minnatdorman sizlardan</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Oybek onasi</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">23-iyun, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">bu ilova menga judayam yoqdi ayniqsa masajni organdim bolam bezovta bolsa yozib darov sababini bilib qarayapman</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Abdulbosit onasi</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">17-iyun, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="review-card">
+                   <div class="stars"><img src="images/stars.svg" alt=""></div>
+                    <p class="review-text">bu ilova menga judayam yoqdi ayniqsa masajni organdim bolam bezovta bolsa yozib darov sababini bilib qarayapman</p>
+                    <div class="review-footer">
+                        <strong class="review-author">Abdulbosit onasi</strong>
+                        <div class="store-info">
+                            <img src="images/play-market.svg" alt="Google Play" class="store-icon">
+                            <div class="store-meta">
+                                <span class="store-name">Google Play Store</span>
+                                <span class="review-date">17-iyun, 2026</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section
+    class="section media"
+    id="media"
+>
+    <div class="container">
+
+        <div class="media-header">
+
+            <div>
+
+                <h2 class="media-title">
+                    Mahalliy va xorijiy
+                    <br>
+                    media sahifalar e’tirofi
+                </h2>
+
+                <p>
+                    Mom+ haqidagi yangiliklar, intervyular va
+                    <br>
+                    maqolalarni yetakchi media nashrlarida ko‘ring.
+                </p>
+
+            </div>
+
+
+            <div class="media-logos">
+                    <img class="media-img" src="images/fem-tech-force.svg" alt="">
+
+                    <img class="media-img" src="images/it-park.svg" alt="">
+
+                    <img class="media-img" src="images/my5.svg" alt="">
+
+                    <img class="media-img" src="images/24uz.svg" alt="">
+            </div>
+
+        </div>
+
+        <div class="learn-header">
+
+            <h2>
+                Birgalikda o’rganamiz
+            </h2>
+
+            <a class="learn-link" href="#">
+                Barchasi <img class="learn-img" src="images/right-2.svg" alt="">
+            </a>
+
+        </div>
+
+        <div class="articles-grid">
+            <article class="article">
+                <div class="article-image">
+                    <img
+                        src="images/article-1.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Navigating postpartum
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article">
+                <div class="article-image">
+                    <img
+                        src="images/article-2.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    The science of infant sleep
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article">
+                <div class="article-image">
+                    <img
+                        src="images/article-3.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Decoding your baby's cries
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article">
+                <div class="article-image">
+                    <img
+                        src="images/article-4.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Mindful meal planning
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+
+            <article class="article article-none">
+                <div class="article-image">
+                    <img
+                        src="images/article-3.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Decoding your baby's cries
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article article-none">
+                <div class="article-image">
+                    <img
+                        src="images/article-4.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Mindful meal planning
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article article-none">
+                <div class="article-image">
+                    <img
+                        src="images/article-1.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    Navigating postpartum
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+            <article class="article article-none">
+                <div class="article-image">
+                    <img
+                        src="images/article-2.png"
+                        alt="Navigating postpartum"
+                    >
+                </div>
+
+                <h3>
+                    The science of infant sleep
+                </h3>
+                <p>
+                    Bonding through baby massage. Empowering <br> parenthood through technology
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="logo">
+                <img src="images/logo-pink.svg" alt="Mom+ Logo">
+            </div>
+
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-column-title">
+                        <strong>Hamlodorlik</strong>
+                        <span class="chevron"></span>
+                    </div>
+                    <div class="footer-column-links">
+                        <a href="#">Chaqaloq vazni normadami?</a>
+                        <a href="#">Sariqlik, Prikorm kiritish</a>
+                        <a href="#">Vaksina va emlash jadvali</a>
+                        <a href="#">Chaqaloq uyqusi</a>
+                        <a href="#">Xavfli rivojlanish belgilari</a>
+                        <a href="#">Chaqaloq rivojlanishi</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-column-title">
+                        <strong>Chaqaloq parvarishi</strong>
+                        <span class="chevron"></span>
+                    </div>
+                    <div class="footer-column-links">
+                        <a href="#">Chaqaloq vazni normadami?</a>
+                        <a href="#">Sariqlik, Prikorm kiritish</a>
+                        <a href="#">Vaksina va emlash jadvali</a>
+                        <a href="#">Chaqaloq uyqusi</a>
+                        <a href="#">Xavfli rivojlanish belgilari</a>
+                        <a href="#">Chaqaloq rivojlanishi</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-column-title">
+                        <strong>Sog’liq va tibbiy yordam</strong>
+                        <span class="chevron"></span>
+                    </div>
+                    <div class="footer-column-links">
+                        <a href="#">AI shifokor</a>
+                        <a href="#">Bola salomatligi</a>
+                        <a href="#">Ona salomatligi</a>
+                        <a href="#">Dori vositalari eslatmasi</a>
+                        <a href="#">Tibbiy tahlillarni tushunish</a>
+                        <a href="#">Sog’liq bo’yicha maslahat</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-column-title">
+                        <strong>Loyiha haqida</strong>
+                        <span class="chevron"></span>
+                    </div>
+                    <div class="footer-column-links">
+                        <a href="#">Mom+ nima?</a>
+                        <a href="#">Nega aynan Mom+?</a>
+                        <a href="#">Ilmiy asoslangan tibbiyot</a>
+                        <a href="#">Shifokorlar</a>
+                        <a href="#">Media va OAV</a>
+                        <a href="#">Bog’lanish</a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <div class="footer-column-title">
+                        <strong>Huquqiy</strong>
+                        <span class="chevron"></span>
+                    </div>
+                    <div class="footer-column-links">
+                        <a href="#">Maxfiylik siyosati</a>
+                        <a href="#">Foydalanish shartlari</a>
+                        <a href="#">Ma’lumotlar xavfsizligi</a>
+                        <a href="#">Cookie siyosati</a>
+                        <a href="#">Profilni o’chirish</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="copyright-text">© Copyright 2026, All Rights Reserved by Parenting Partner LLC</p>
+    </div>
+
+<div class="download-section" id="download">
+    <div class="download-phones">
+        <div class="bottom-phone">
+            <img class="phone-left" src="images/dowload-left.png" alt="Mom+ Mockup Left">
+            
+            <img class="phone-right" src="images/dowload-right.png" alt="Mom+ Mockup Right">
+            
+            <img class="phone-center" src="images/dowload-center.png" alt="Mom+ Mockup Center">
+            
+            <img class="phone-clouds" src="images/dowload-clouds.png" alt="Clouds Background Effect">
+        </div>
+        
+        <div class="fade-overlay"></div>
+    </div>
+
+    <div class="download-content">
+        <h2>Fursatni boy bermang!</h2>
+
+        <div class="download-buttons">
+            <a href="#" class="download-button dark-button">
+                <img src="images/play-market.svg" alt="Google Play">
+                <span>Android uchun yuklab olish</span>
+            </a>
+
+            <a href="#" class="download-button dark-button">
+                <img src="images/apple.svg" alt="App Store">
+                <span>iOS uchun yuklab olish</span>
+            </a>
+        </div>
+    </div>
+</div>
+</footer>
+
+<script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('active');
+        mobileMenu.classList.toggle('open');
+    });
+
+
+document.querySelectorAll('.reviews-row').forEach(row => {
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+
+    row.addEventListener('mousedown', (e) => {
+        isDown = true;
+        row.style.cursor = 'grabbing';
+        startX = e.pageX - row.offsetLeft;
+        scrollLeft = row.scrollLeft;
+    });
+
+    row.addEventListener('mouseleave', () => {
+        isDown = false;
+        row.style.cursor = 'default';
+    });
+
+    row.addEventListener('mouseup', () => {
+        isDown = false;
+        row.style.cursor = 'default';
+    });
+
+    row.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - row.offsetLeft;
+        const walk = (x - startX) * 2; 
+        row.scrollLeft = scrollLeft - walk;
+    });
+});
+
+// footer
+document.addEventListener("DOMContentLoaded", function () {
+    const columnTitles = document.querySelectorAll('.footer-column-title');
+
+    columnTitles.forEach(title => {
+        title.addEventListener('click', function () {
+            if (window.innerWidth <= 768) {
+                const parentColumn = this.closest('.footer-column');
+                parentColumn.classList.toggle('active');
+            }
+        });
+    });
+});
+</script>
+</body>
+</html>
